@@ -1,0 +1,19 @@
+Package: rankr
+Title: Provide multi-factor ranking metrics that are customizable across data
+    sets
+Version: 0.0.0.9000
+Authors@R: person("Mark", "Kurzeja", email = "mtkurzej@umich.edu", role = c("aut", "cre"))
+Description: Multi-factor rankings are an explicit way of describing the process
+    by which humans naturally rank sports teams, metrics, and other items of
+    interest. This package attempts to provide a configurable set of functions for
+    the visualization and application of metric space multi-factor rankings
+Depends:
+    R (>= 3.2.4)
+Imports:
+    plyr,
+	magrittr,
+	dplyr,
+	ggplot2
+License: MIT + file LICENSE
+LazyData: true
+RoxygenNote: 5.0.1
